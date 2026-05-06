@@ -1,5 +1,5 @@
 name = "no-sale-coupon-stacking"
-client_id = "YOUR_CLIENT_ID_HERE"
+client_id = "3162836652fa06af36373d7004222886"
 application_url = "https://shopify.dev/apps/default-app-home"
 embedded = true
 
