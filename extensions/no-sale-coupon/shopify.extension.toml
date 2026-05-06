@@ -7,8 +7,8 @@ handle      = "no-sale-coupon"
 description = "Bloqueia cupões quando o carrinho contém produtos já em promoção"
 
   [extensions.build]
-  command = ""
-  path    = "dist/function.wasm"
+  command = "shopify app function build"
+  path    = "dist/index.wasm"
 
   [[extensions.targeting]]
   target      = "purchase.order-discount.run"
