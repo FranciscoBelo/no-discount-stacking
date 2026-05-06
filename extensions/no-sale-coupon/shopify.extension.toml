@@ -13,5 +13,5 @@ export      = "run"
 
 [extensions.build]
 command = "npm run build"
-path    = "dist/function.wasm"
+path    = "dist/function.js"
 watch   = ["src/**/*.js"]
