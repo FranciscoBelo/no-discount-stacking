@@ -1,0 +1,21 @@
+query RunInput {
+  cart {
+    # Cupões que o cliente introduziu no checkout
+    discountCodes {
+      code
+      applicable
+    }
+    # Linhas do carrinho com preços para detetar promoções
+    lines {
+      quantity
+      cost {
+        amountPerQuantity {
+          amount
+        }
+        compareAtAmountPerQuantity {
+          amount
+        }
+      }
+    }
+  }
+}

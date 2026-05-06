@@ -1,0 +1,4 @@
+{
+  "title": "No Sale Coupon Stacking",
+  "description": "Blocks discount codes when cart contains items already on sale"
+}

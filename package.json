@@ -1,0 +1,16 @@
+{
+  "name": "no-discount-stacking",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "shopify app dev",
+    "deploy": "shopify app deploy",
+    "build": "shopify app build"
+  },
+  "devDependencies": {
+    "@shopify/cli": "^3.70.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

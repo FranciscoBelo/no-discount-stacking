@@ -1,0 +1,16 @@
+name = "no-sale-coupon-stacking"
+client_id = "YOUR_CLIENT_ID_HERE"
+application_url = "https://shopify.dev/apps/default-app-home"
+embedded = true
+
+[access_scopes]
+scopes = "write_discounts,read_products"
+
+[auth]
+redirect_urls = ["https://shopify.dev/apps/default-app-home/api/auth"]
+
+[webhooks]
+api_version = "2026-01"
+
+[pos]
+embedded = false
