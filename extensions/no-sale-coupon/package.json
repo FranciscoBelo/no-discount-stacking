@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "shopify app function build"
+    "build": "esbuild --bundle --outfile=dist/function.js src/run.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
   }
 }
