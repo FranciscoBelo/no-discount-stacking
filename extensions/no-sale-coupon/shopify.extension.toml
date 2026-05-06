@@ -12,6 +12,6 @@ input_query = "src/run.graphql"
 export      = "run"
 
 [extensions.build]
-command = "npm run build"
-path    = "dist/function.js"
+command = "npx esbuild --bundle --outfile=dist/function.js src/run.js"
+path    = "dist/function.wasm"
 watch   = ["src/**/*.js"]
