@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "shopify app function build"
+    "build": "npm exec -- shopify app function build"
+  },
+  "dependencies": {
+    "@shopify/shopify_function": "~1.0.0"
   }
 }
