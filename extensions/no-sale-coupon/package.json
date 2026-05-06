@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "build": "shopify app function build"
+  },
+  "devDependencies": {
+    "@shopify/shopify_function": "^1.0.0"
   }
 }
