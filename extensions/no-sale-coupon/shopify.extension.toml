@@ -7,7 +7,7 @@ handle      = "no-sale-coupon"
 description = "Bloqueia cupões quando o carrinho contém produtos já em promoção"
 
 [extensions.build]
-command     = "npm run build"
+command     = "shopify app function build"
 watch_paths = ["src/**/*.js"]
 
 [[extensions.targeting]]
