@@ -1,11 +1,5 @@
 {
   "name": "no-sale-coupon",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "npx @shopify/shopify_function build"
-  },
-  "devDependencies": {
-    "@shopify/shopify_function": "^1.0.0"
-  }
+  "private": true
 }
