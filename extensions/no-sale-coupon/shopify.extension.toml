@@ -7,9 +7,8 @@ handle      = "no-sale-coupon"
 description = "Bloqueia cupões quando o carrinho contém produtos já em promoção"
 
   [extensions.build]
-  command = "npm run build"
+  command = ""
   path    = "dist/function.wasm"
-  watch   = ["src/**/*.js"]
 
   [[extensions.targeting]]
   target      = "purchase.order-discount.run"

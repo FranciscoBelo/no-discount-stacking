@@ -2,9 +2,6 @@
   "name": "no-sale-coupon",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "build": "npm exec -- shopify app function build"
-  },
   "dependencies": {
     "@shopify/shopify_function": "~1.0.0"
   }
