@@ -1,16 +1,17 @@
 api_version = "2026-01"
 
 [[extensions]]
-type        = "function"
-name        = "No Sale Coupon Stacking"
+name        = "t:name"
+description = "t:description"
 handle      = "no-sale-coupon"
-description = "Bloqueia cupões quando o carrinho contém produtos já em promoção"
-
-[extensions.build]
-command     = "npm run build"
-watch_paths = ["src/**/*.js"]
+type        = "function"
 
 [[extensions.targeting]]
 target      = "purchase.order-discount.run"
 input_query = "src/run.graphql"
 export      = "run"
+
+[extensions.build]
+command = "npm run build"
+path    = "dist/function.wasm"
+watch   = ["src/**/*.js"]
